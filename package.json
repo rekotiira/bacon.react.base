@@ -23,10 +23,12 @@
     "url": "https://github.com/calmm-js/bacon.react.base/issues"
   },
   "homepage": "https://github.com/calmm-js/bacon.react.base#readme",
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0",
+    "baconjs": "^0.7.84"
+  },
   "dependencies": {
-    "baconjs": "^0.7.84",
-    "ramda": ">=0.20.1 <0.22.0",
-    "react": "^15.0.1"
+    "ramda": ">=0.20.1 <0.22.0"
   },
   "devDependencies": {
     "babel-cli": "^6.7.5",
